@@ -3,6 +3,8 @@
 CSS Reskin for the HuggingChat webpage (https://huggingface.co/chat) trying to mimic ChatGPT webpage UI style. 
 Note: This is still a WIP extension and functionality/readability can be affected.
 
+Use this extension along with this HuggingFace Assistant (https://hf.co/chat/assistant/6616e5a7729f5c0a880dd8d8) for the full ChatGPT Experience!
+
 ## Installation Instructions:
 - [Download](https://codeload.github.com/kardchcode/Hugging-ChatGPT/zip/refs/heads/main) this repo and extract it somewhere safe
 - On your browser, navigate to ```chrome://extensions``` and enable Developer Mode there
