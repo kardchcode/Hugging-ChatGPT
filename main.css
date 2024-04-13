@@ -1,0 +1,181 @@
+/* TODO: cleanup and white theme*/
+* {
+  --tw-prose-bullets: #ececec !important
+}
+
+html[class="h-full dark"] {
+  color-scheme: dark !important;
+}
+
+nav[class="grid max-h-screen grid-cols-1 grid-rows-[auto,1fr,auto] overflow-hidden *:w-[280px] max-md:hidden"] {
+  background-color: #171717 !important;
+}
+
+a[href="/chat/"], button[type="submit"] {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding: 6px 10px 7px 11px !important;
+  border-radius: 90px !important;
+  border-color: #ffffff26 !important;
+}
+
+a[class="group flex h-10 flex-none items-center gap-2 pl-2 pr-2 text-sm text-gray-500 hover:bg-gray-100 md:rounded-xl !bg-gray-100 !text-gray-800"] {
+  background-color: #363636 !important;
+  color: #ececec !important;
+}
+
+a[class="group mt-auto flex h-10 flex-none items-center gap-2 pl-3 pr-2 text-sm text-gray-500 hover:bg-gray-100 max-md:order-first md:rounded-xl !bg-gray-100 !text-gray-800"], a[class="group flex h-10 flex-none items-center gap-2 pl-3 pr-2 text-sm text-gray-500 hover:bg-gray-100 md:rounded-xl !bg-gray-100 !text-gray-800"] {
+  background-color: #212121 !important;
+  color: #ececec !important;
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: #ffffff26 !important;
+}
+
+div[class="flex w-full flex-row flex-nowrap"] {
+  padding-top: 0px !important;
+  background-image: url('https://huggingface.co/chat/huggingchat/logo.svg');
+  background-size: 32px;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+div[class="mt-0.5 flex flex-col gap-1 rounded-r-xl p-3 text-sm md:bg-gradient-to-l md:from-gray-50 md:dark:from-gray-800/30"] {
+  padding-left: 8px !important;
+}
+
+div[class="group-hover:rotate-[20deg]"], div[class="group-hover:-rotate-[20deg]"] {
+  background-color: #676767 !important;
+}
+
+div[class="flex w-full pb-3"], svg[class="text-[.6rem] sm:mr-1.5 sm:text-primary-500"], span[class="max-sm:hidden"]  {
+  display: none !important;
+}
+
+div[class="max-sm:hidden"] {
+  padding-left: 4px !important;
+}
+
+img[class="mt-5 h-3 w-3 flex-none select-none rounded-full shadow-lg"] {
+  margin-top: 15px !important;
+  min-height: 28px !important;
+  width: auto !important;
+}
+
+.bg-gradient-to-t, .md\:bg-gradient-to-l, .bg-gradient-to-br {
+  background-image: none !important;
+}
+
+.dark\:bg-gray-700, .bg-gray-200, .bg-white, .dark\:hover\:bg-gray-700:hover, .h-full, .bg-gray-100, .from-gray-800, .bg-gray-50, .bg-blue-500\/10, .bg-gradient-to-t {
+  background-color: #212121 !important;
+}
+
+.dark\:bg-gray-700, .dark\:border-gray-800, .dark\:border-gray-500, .dark\:border-gray-800\/70 {
+  border-color: #ffffff26 !important;
+}
+
+.dark\:text-gray-300, .text-base, .text-gray-800 {
+  color: #ececec !important;
+}
+
+.text-left {
+  color: #ececec !important;
+  font-weight: 500 !important;
+}
+
+.underline {
+  color: #B4B4B4 !important;
+  text-decoration-line: none !important;
+}
+
+.hover\:\*\:text-gray-800>*:hover {
+  color: #ececec !important;
+}
+
+.border-gray-100 {
+  border-color: #212121 !important;
+}
+
+.text-gray-400\/90, .text-gray-900, .dark\:text-gray-400 {
+  color: #B4B4B4 !important;
+}
+
+.px-1 {
+  justify-content: center !important;
+  padding-left: 15px !important;
+}
+
+.px-5 {
+  padding-left: 4px !important;
+}
+
+.md\:py-8 {
+  padding-top: 0px !important;
+  padding-bottom: 8px !important;
+}
+
+.px-3\.5 {
+  padding-left: 0px !important;
+}
+
+.pb-52 {
+  padding-bottom: 8.5rem !important;
+}
+
+.scroll-p-3 {
+  scrollbar-width: none !important;
+}
+
+.text-gray-600 {
+  font-size: .9rem !important;
+}
+
+.svelte-jxi03l {
+  font-weight: 500 !important;
+  background-color: transparent !important;
+  border-radius: 16px;
+}
+
+.svelte-jxi03l::placeholder, .text-gray-400 {
+  color: #B4B4B4 !important;
+}
+
+.dark\:border-gray-600 {
+  border-color: #ffffff26 !important;
+  border-radius: 16px !important;
+  padding: 2px 2px 3px 4px !important;
+  background-color: #212121 !important;
+}
+
+.dark\:text-white {
+  padding: 8px !important;
+}
+
+.border-gray-200, .dark\:bg-gray-950\/20, .bg-blue-50, .bg-blue-500\/5 {
+  border-color: #ffffff26 !important;
+  background-color: #171717 !important;
+}
+
+.\!bg-gray-100 {
+  background-color: #676767 !important;
+}
+
+.text-gray-600, .text-gray-500, .prose, .text-blue-600 {
+  color: #ececec !important;
+  font-weight: 500 !important;
+  line-height: 1.8 !important;
+}
+
+.border-b {
+  border: none !important;
+}
+
+.disabled {
+  padding-top: 0px !important;
+  padding-left: 50px !important;
+}
+
+.bg-black {
+  background-color: #171717 !important;
+}

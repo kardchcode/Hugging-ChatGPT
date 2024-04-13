@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Hugging-ChatGPT",
+    "description": "Gives HuggingChat webpage the UI appearence of ChatGPT",
+    "icons": { "48" : "icon.png" },
+    "version": "1.0",
+
+    "content_scripts": [{
+            "matches": ["https://huggingface.co/chat/*"],
+            "css": ["main.css"]
+    }]
+}
