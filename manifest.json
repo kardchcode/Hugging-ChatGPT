@@ -3,10 +3,11 @@
     "name": "Hugging-ChatGPT",
     "description": "Gives HuggingChat webpage the UI appearence of ChatGPT",
     "icons": { "48" : "icon.png" },
-    "version": "1.1",
+    "version": "1.2",
+    "homepage_url": "https://github.com/kardchcode/Hugging-ChatGPT",
 
     "content_scripts": [{
             "matches": ["https://huggingface.co/chat/*"],
             "css": ["main.css"]
-    }]
+    }]   
 }

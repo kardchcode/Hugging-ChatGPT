@@ -214,3 +214,39 @@ img[class="mt-5 h-3 w-3 flex-none select-none rounded-full shadow-lg"] {
 .peer:checked~.peer-checked\:bg-blue-600 {
   background-color: #10a37f !important;
 }
+
+:is(:where(.dark) .dark\:prose-pre\:bg-gray-900 :is(:where(pre):not(:where([class~=not-prose] *)))) {
+  background-color: #0d0d0d !important;
+  padding: 18px !important;
+  padding-left: 1.39rem !important;
+  font-size: 14.7px !important;
+}
+
+.hljs-doctag, .hljs-formula, .hljs-keyword, .hljs-literal {
+  color: #2e95d3 !important;
+}
+
+.hljs-attr, .hljs-number, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-pseudo, .hljs-template-variable, .hljs-type, .hljs-variable {
+  color: #df3079 !important;
+}
+
+.hljs-addition, .hljs-attribute, .hljs-meta .hljs-string, .hljs-string {
+  color: #00a67d !important;
+}
+
+.hljs-bullet, .hljs-link, .hljs-meta, .hljs-selector-id, .hljs-symbol, .hljs-title {
+  color: #f22c3d !important;
+}
+
+.hljs-built_in, .hljs-class .hljs-title, .hljs-title.class_ {
+  color: #e9950c !important;
+}
+
+.hljs-comment, .hljs-quote {
+  color: #ffffff80 !important;
+  font-style: normal !important;
+}
+
+.prose :where(pre code):not(:where([class~=not-prose] *)), .hljs-regexp {
+  color: #FFFFFF !important;
+}
