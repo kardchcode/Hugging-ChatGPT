@@ -11,5 +11,8 @@ Use this extension along with this HuggingFace Assistant (https://hf.co/chat/ass
 - Click ***Load Unpacked*** and select the folder that contains the extension files *(Hugging-ChatGPT-main)*
 - That's it, remember not to delete the downloaded folder, otherwise the extension goes as well!
 
-### Website Preview:
-<img src="/preview.png" width="600">
+### Before:
+<img src="https://imgur.com/tsJcGzR" width="600">
+
+### After:
+<img src="https://imgur.com/7Po7hDb" width="600">
