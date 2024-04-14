@@ -12,7 +12,7 @@ Use this extension along with this HuggingFace Assistant (https://hf.co/chat/ass
 - That's it, remember not to delete the downloaded folder, otherwise the extension goes as well!
 
 ### Before:
-<img src="https://imgur.com/tsJcGzR" width="600">
+<img src="https://i.imgur.com/tsJcGzR.png" width="600">
 
 ### After:
-<img src="https://imgur.com/7Po7hDb" width="600">
+<img src="https://i.imgur.com/7Po7hDb.png" width="600">
