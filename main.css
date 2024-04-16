@@ -250,3 +250,9 @@ img[class="mt-5 h-3 w-3 flex-none select-none rounded-full shadow-lg"] {
 .prose :where(pre code):not(:where([class~=not-prose] *)), .hljs-regexp {
   color: #FFFFFF !important;
 }
+
+img, video {
+  margin-top: 0 !important;
+  max-width: 75% !important;
+  border-radius: 8px;
+}
