@@ -2,6 +2,8 @@
 * {
   --tw-prose-bullets: #ececec !important;
   --tw-shadow-color: transparent !important;
+
+
 }
 
 html[class="h-full dark"] {
@@ -87,6 +89,14 @@ img[class="mt-5 h-3 w-3 flex-none select-none rounded-full shadow-lg"] {
   min-height: 28px !important;
   width: auto !important;
 }
+
+img[src="https://huggingface.co/avatars/2edb18bd0206c16b433841a47f53fa8e.svg"] {
+  content: url(https://huggingface.co/chat/settings/assistants/6616e5a7729f5c0a880dd8d8/avatar.jpg) !important;
+}
+
+p[class="mb-3 text-gray-600 dark:text-gray-300"] {
+  display: none !important;
+} 
 
 .bg-gradient-to-t, .md\:bg-gradient-to-l, .bg-gradient-to-br {
   background-image: none !important;
@@ -255,4 +265,70 @@ img, video {
   margin-top: 0 !important;
   max-width: 75% !important;
   border-radius: 8px;
+}
+
+.loading > div.animate-bounce  {
+  background-color: #676767 !important;
+}
+
+.dark\:text-gray-700:is(.dark *) {
+  color: #B4B4B4 !important;
+}
+
+.sm\:text-primary-500 {
+  display: none !important;
+}
+
+.text-black {
+  color: #ececec !important;
+}
+
+details.svelte-1escu1z {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+details.svelte-1escu1z > div {
+  background-color: transparent !important;
+  border: none !important;
+  border-left: 2px solid #ffffff !important;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  padding: 0px 20px !important;
+}
+
+details.svelte-1escu1z > summary {
+  grid-template-columns: 1fr 1fr !important;
+  padding: 5px 0px 8px 0px!important;
+  align-items: start !important;
+}
+
+details.svelte-1escu1z {
+  display: block !important;
+}
+
+details.svelte-1escu1z > summary > div, details.svelte-1escu1z > summary > dl > dd {
+  display: none !important;
+}
+
+details.svelte-1escu1z > summary > dl > dt {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  overflow: visible !important;
+}
+
+details.svelte-1escu1z > summary > dl > dt::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(315deg);
+  margin-left: 5px;
+  margin-top: -2px;
+}
+
+details[open].svelte-1escu1z > summary > dl > dt::after {
+  transform: rotate(135deg);
+  margin-top: 4px;
 }
