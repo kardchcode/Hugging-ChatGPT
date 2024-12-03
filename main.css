@@ -277,12 +277,16 @@ img, video {
   color: #ececec !important;
 }
 
-details.svelte-1escu1z {
+.rounded-full.bg-gray-200 {
+  background-color: #676767 !important;
+}
+
+details.rounded-xl  {
   background-color: transparent !important;
   border: none !important;
 }
 
-details.svelte-1escu1z > div {
+details.rounded-xl > div {
   background-color: transparent !important;
   border: none !important;
   border-left: 2px solid #ffffff !important;
@@ -291,27 +295,27 @@ details.svelte-1escu1z > div {
   padding: 0px 20px !important;
 }
 
-details.svelte-1escu1z > summary {
+details.rounded-xl > summary {
   grid-template-columns: 1fr 1fr !important;
   padding: 5px 0px 8px 0px!important;
   align-items: start !important;
 }
 
-details.svelte-1escu1z {
+details.rounded-xl {
   display: block !important;
 }
 
-details.svelte-1escu1z > summary > div, details.svelte-1escu1z > summary > dl > dd {
+details.rounded-xl > summary > div, details.rounded-xl > summary > dl > dd {
   display: none !important;
 }
 
-details.svelte-1escu1z > summary > dl > dt {
+details.rounded-xl > summary > dl > dt {
   font-weight: 400 !important;
   font-size: 16px !important;
   overflow: visible !important;
 }
 
-details.svelte-1escu1z > summary > dl > dt::after {
+details.rounded-xl > summary > dl > dt::after {
   content: '';
   width: 8px;
   height: 8px;
@@ -322,7 +326,7 @@ details.svelte-1escu1z > summary > dl > dt::after {
   margin-top: -2px;
 }
 
-details[open].svelte-1escu1z > summary > dl > dt::after {
+details[open].rounded-xl > summary > dl > dt::after {
   transform: rotate(135deg);
   margin-top: 4px;
 }
@@ -344,6 +348,10 @@ details[open].svelte-1escu1z > summary > dl > dt::after {
 
 .relative.py-3\.5 {
   padding-bottom: 1.6rem;
+}
+
+.top-0.justify-between.px-1\.5 {
+  padding-right: 12px !important;
 }
 
 div.flex.w-full.pb-3 {
