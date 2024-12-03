@@ -1,17 +1,19 @@
-/* TODO: cleanup + white theme*/
 * {
   --tw-prose-bullets: #ececec !important;
+  --tw-prose-headings: #ececec !important;
   --tw-shadow-color: transparent !important;
-
-
 }
 
 html[class="h-full dark"] {
   color-scheme: dark !important;
 }
 
-nav[class="grid max-h-screen grid-cols-1 grid-rows-[auto,1fr,auto] overflow-hidden *:w-[280px] max-md:hidden"] {
+nav.grid.max-h-screen.grid-cols-1 {
   background-color: #171717 !important;
+}
+
+div.prose > h2 {
+  font-size: 18px !important;
 }
 
 a[href="/chat/"] {
@@ -76,7 +78,7 @@ div[class="group-hover:rotate-[20deg]"], div[class="group-hover:-rotate-[20deg]"
   background-color: #676767 !important;
 }
 
-div[class="flex w-full pb-3"], svg[class="text-[.6rem] sm:mr-1.5 sm:text-primary-500"], span[class="max-sm:hidden"]  {
+svg[class="text-[.6rem] sm:mr-1.5 sm:text-primary-500"], p[class="mb-3 text-gray-600 dark:text-gray-300"], .sm\:text-primary-500, span[class="max-sm:hidden"] {
   display: none !important;
 }
 
@@ -93,10 +95,6 @@ img[class="mt-5 h-3 w-3 flex-none select-none rounded-full shadow-lg"] {
 img[src="https://huggingface.co/avatars/2edb18bd0206c16b433841a47f53fa8e.svg"] {
   content: url(https://huggingface.co/chat/settings/assistants/6616e5a7729f5c0a880dd8d8/avatar.jpg) !important;
 }
-
-p[class="mb-3 text-gray-600 dark:text-gray-300"] {
-  display: none !important;
-} 
 
 .bg-gradient-to-t, .md\:bg-gradient-to-l, .bg-gradient-to-br {
   background-image: none !important;
@@ -160,7 +158,7 @@ p[class="mb-3 text-gray-600 dark:text-gray-300"] {
 }
 
 .pb-4 {
-  padding-bottom: 1.7rem !important;
+  padding-bottom: 10px !important;
 }
 
 .scroll-p-3 {
@@ -275,10 +273,6 @@ img, video {
   color: #B4B4B4 !important;
 }
 
-.sm\:text-primary-500 {
-  display: none !important;
-}
-
 .text-black {
   color: #ececec !important;
 }
@@ -332,3 +326,41 @@ details[open].svelte-1escu1z > summary > dl > dt::after {
   transform: rotate(135deg);
   margin-top: 4px;
 }
+
+.prose :where(a):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  color: #7ab7ff !important;
+  text-decoration: none !important;
+}
+
+.prose :where(ol>li):not(:where([class~=not-prose],[class~=not-prose] *))::marker {
+  color: #FFFFFF !important;
+}
+
+.right-0.-bottom-4.flex {
+  right: unset !important;
+  left: 45px !important;
+  margin-bottom: 15px !important;
+}
+
+.relative.py-3\.5 {
+  padding-bottom: 1.6rem;
+}
+
+div.flex.w-full.pb-3 {
+  display: none !important;
+}
+
+/*
+div.flex.w-full.pb-3 {
+  background-color: transparent !important;
+  z-index: -200 !important;
+}
+
+TODO:
+- Fix above div (Tools + Upload files buttons)
+- Web-Search tags like ChatGPT
+- Consistent scrollbars (position: absolute)
+- Fancy tool-calling tags
+- Clean up code
+- White theme?
+*/
