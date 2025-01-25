@@ -2,6 +2,8 @@
   --tw-prose-bullets: #ececec !important;
   --tw-prose-headings: #ececec !important;
   --tw-shadow-color: transparent !important;
+  --tw-prose-quotes: #ececec !important;
+  --tw-prose-bold: #ececec !important;
 }
 
 html {
@@ -446,12 +448,16 @@ a[href="/chat/settings/assistants/new"] {
   overflow: visible !important; /* TODO: Seriously, what is this */
 }
 
-button[type="submit"]:not(.flex) {
+button[type="submit"]:not(.flex, .flex-none) {
   border-color: #676767 !important;
   width: 2rem !important;
   height: 2rem !important;
   margin-bottom: 2px !important;
   margin-right: 4px !important;
+}
+
+.relative.ml-auto.flex.w-40.items-center.rounded-full.border:has(> svg) {
+  height: 40px !important;
 }
 
 /*

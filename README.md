@@ -1,9 +1,12 @@
-# Hugging-ChatGPT
+# Hugging-ChatGPT-Theme
 
-CSS Reskin for the HuggingChat webpage (https://huggingface.co/chat) trying to mimic ChatGPT webpage UI style. 
-Note: This is still a WIP extension and functionality/readability can be affected.
+<img src="icon.png" align="left" width="104"/>
+CSS Reskin for HuggingChat trying to mimic ChatGPT webpage UI style.<br/>https://huggingface.co/chat<br/><br/>
+<sub>Note: This is still a WIP extension and functionality/readability can be affected.</sub>
 
-Use this extension along with this HuggingFace Assistant (https://hf.co/chat/assistant/6616e5a7729f5c0a880dd8d8) for the full ChatGPT Experience!
+<br clear="left"/><br/>
+
+Use this extension along with [this](https://hf.co/chat/assistant/6616e5a7729f5c0a880dd8d8) HuggingFace Assistant for the full ChatGPT Experience!
 
 ## Installation Instructions:
 - [Download](https://codeload.github.com/kardchcode/Hugging-ChatGPT/zip/refs/heads/main) this repo and extract it somewhere safe
